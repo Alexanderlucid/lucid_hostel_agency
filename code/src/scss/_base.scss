@@ -14,6 +14,7 @@ html{
 body{
     /* background-color: blue; */
     min-width: 100%;
+    overflow-wrap: break-word; /* Recommended */
 }
 .body-container{
     background-color: #fff;
