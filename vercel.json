@@ -1,0 +1,16 @@
+{
+    "builds": [
+      {
+        "src": "src/**/*",
+        "use": "@vercel/node"  
+      }
+    ],
+    "outputDirectory": "dist", 
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "dist/$1"
+      }
+    ]
+  }
+  
