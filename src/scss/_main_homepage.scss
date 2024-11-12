@@ -1,0 +1,73 @@
+// Main
+.main{
+    margin-top: 100px; 
+  }
+  /* Showcase Wrapper */
+  .showcase-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-header{
+    margin: 10px 0;
+    font-size: 3.0rem;
+  }
+  .showcase-wrapper img{
+    width: 80%;
+    height: 450px;
+    border-radius: 20px;
+    border: 10px solid $orange-color;
+  }
+  
+  /* Category Wrapper */
+  .category-wrapper{
+    border-top: 3px solid $orange-color;
+    margin: 40px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+  .categories{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height:auto;  
+    width: 100%;
+  }
+  .categories a{
+    text-decoration: none; 
+    color: #00334d;
+    width: 50%;
+    height: auto;
+    background-color: $white-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .catalogue-icon .fa-solid{
+    font-size: 20rem;
+    padding-bottom: 20px;
+  }
+  .catalogue-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .catalogue-icon p{
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .catalogue-icon:hover{
+    color: $orange-color;
+    box-shadow: 1px 1px 5px ;
+  }
+  

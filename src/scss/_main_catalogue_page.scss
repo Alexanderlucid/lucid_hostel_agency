@@ -1,0 +1,28 @@
+.main{
+    margin: 150px auto;
+}
+.section-heading{
+    font-size: 3rem;
+    margin: 20px 0;
+}
+.main-wrapper,.section-body,.hostel-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #013045;
+}
+.hostel-option{
+    border: 5px solid #FF8D00;
+    text-align: center;
+    padding: 50px;
+    margin: 10px auto;
+    height: 20px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.hostel-option:hover{
+    box-shadow: 2px 2px 5px  ;
+    z-index: 1;
+}
