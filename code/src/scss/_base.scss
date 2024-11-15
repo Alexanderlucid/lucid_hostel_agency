@@ -15,12 +15,11 @@ body{
     /* background-color: blue; */
     min-width: 100%;
     overflow-wrap: break-word; /* Recommended */
+    color: $dark-blue-color;
+    font-family: 'merriweather', sans-serif;
 }
 .body-container{
     background-color: #fff;
     width: 90%;
     margin: auto;
-}
-@media (max-) {
-    
 }
